@@ -1,0 +1,62 @@
+/*   this is my first time to code css*/
+#em{
+  color:rgb(100,1,12) ;  
+    background-color: rgba(100, 50, 12, 0.5);
+     font-family: Impact;
+     font-size: xx-large;
+     font-variant: normal;
+     text-align: center;
+}
+/* 
+                  *  font   *
+font -size : small large etc
+font family : impact etc
+font variant : normal 
+small caps :make the small letters capital and put the captial in the upper case
+font style : italic normal
+font weight : normal bold lighter bolder 
+font :its consder of all the cases that i showed
+*/
+.name{
+text-align: justify;
+text-decoration:blink;
+text-transform: capitalize;
+text-indent: 5em;
+}
+/*
+text-align : to put the text on the left or the right or in the center
+text-decoration: to make the text under lined or over lined etc
+text-transform: to make the text calital letter etc
+text- indent : Specifies the size of the indentation of the first line in a block of text
+*/
+.bn{
+ /* border-style: solid dashed  ;
+ border-width: 9px;
+ border-color:blue; */
+border : solid 3px red;
+border-radius: 18px;
+/* list-style-type: circle; */
+/* list-style-type: square; */
+list-style-type: lower-alpha;
+
+}
+/*
+border-style: it is like solid dashed etc
+border-width: its the width of the border
+border-color: color
+border : solid 3px red; i can use it to put all elements in one element
+border-radius: to make the angel morer curve
+*/
+table{
+    border: blue 5px dashed;
+    border-collapse: collapse;
+}
+/*
+Collapse Table Borders
+Theborder-collapseproperty sets whether the tableborders should be
+collapsed into a single border:
+
+*/
+.bb{
+    display: inline;
+}
